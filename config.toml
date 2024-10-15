@@ -42,7 +42,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
 [Twitter]
 build-mode = "apk"
-archive-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
 
 # [Twitch]
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
@@ -56,7 +56,7 @@ patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
-archive-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit"
 
 # [Messenger]
 # enabled = false
