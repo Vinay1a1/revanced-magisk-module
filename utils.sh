@@ -285,11 +285,6 @@ apk_mirror_search() {
 		apparch=(universal noarch 'arm64-v8a + armeabi-v7a')
 	else apparch=("$arch" universal noarch 'arm64-v8a + armeabi-v7a'); fi
 
- 
-		# F Twitter.
-	if [[ "$apk_bundle" == *"com.twitter.android"* ]]; then
-		apparch=(120-640 noarch 'arm64-v8a + armeabi-v7a')
-  	fi
 	for ((n = 1; n < 40; n++)); do
 		node=$($HTMLQ "div.table-row.headerFont:nth-last-child($n)" -r "span:nth-child(n+3)" <<<"$resp")
 		if [ -z "$node" ]; then break; fi
