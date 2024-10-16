@@ -1,7 +1,6 @@
 Music-Extended: 7.16.53  
 YouTube-Extended: 19.16.39  
 Reddit-Extended: 2024.17.0  
-Twitter: 10.62.1-release.0  
 CLI: inotia00/revanced-cli-4.6.2-all.jar  
 Integrations: inotia00/revanced-integrations-1.14.2.apk  
 Patches: inotia00/revanced-patches-4.14.2.jar  
