@@ -118,7 +118,7 @@ jobs:
         run: |
           cd build || { echo "build folder not found"; exit 1; }
 
-          TG_CHAT="@rvx_updates"
+          TG_CHAT="@RVX_BUILDS"
           NL=$'\n'
           APKS=""
           MODULES=""
